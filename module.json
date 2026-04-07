@@ -1,0 +1,21 @@
+{
+  "id": "html-journal-importer",
+  "title": "HTML Journal Importer",
+  "description": "Import HTML files as Journal Entries with automatic folder organization and Mestre/Público page grouping.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Rafael"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/importer.css"
+  ]
+}

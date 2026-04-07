@@ -1,0 +1,93 @@
+/* HTML Journal Importer */
+
+.hji-wrapper {
+  padding: 8px 4px;
+}
+
+.hji-instructions {
+  font-size: 0.9em;
+  color: var(--color-text-dark-secondary);
+  margin-bottom: 12px;
+}
+
+/* File selection */
+.hji-file-section {
+  margin-bottom: 16px;
+}
+
+.hji-file-buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.hji-file-buttons button {
+  flex: 1;
+}
+
+.hji-file-count {
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--color-text-dark-secondary);
+  margin: 4px 0 0;
+}
+
+/* Options */
+.hji-options {
+  margin-bottom: 16px;
+}
+
+.hji-options .form-group {
+  margin-bottom: 6px;
+}
+
+.hji-options .form-group > label:has(input[type="checkbox"]) {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+/* Import button */
+.hji-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.hji-actions button {
+  min-width: 160px;
+}
+
+.hji-actions button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Importing state */
+.hji-importing {
+  text-align: center;
+  padding: 24px;
+}
+
+.hji-importing i {
+  font-size: 2em;
+  color: var(--color-text-dark-primary);
+  margin-bottom: 8px;
+}
+
+/* Result state */
+.hji-result {
+  text-align: center;
+  padding: 16px;
+}
+
+.hji-result i {
+  font-size: 2em;
+  color: #4caf50;
+  margin-bottom: 8px;
+}
+
+/* Sidebar button */
+.hji-sidebar-btn {
+  white-space: nowrap;
+}
