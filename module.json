@@ -14,7 +14,9 @@
   ],
   "url": "https://github.com/RafaelCSierra/html-journal-importer",
   "manifest": "https://github.com/RafaelCSierra/html-journal-importer/releases/latest/download/module.json",
-  "download": "https://github.com/RafaelCSierra/html-journal-importer/releases/download/v1.0.0/html-journal-importer-v1.0.0.zip",
+  "download": "https://github.com/RafaelCSierra/html-journal-importer/releases/latest/download/module.zip",
+  "readme": "https://github.com/RafaelCSierra/html-journal-importer/blob/master/README.md",
+  "bugs": "https://github.com/RafaelCSierra/html-journal-importer/issues",
   "esmodules": [
     "scripts/main.mjs"
   ],
